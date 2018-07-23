@@ -1,0 +1,107 @@
+.test-case-container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.test-case-table > thead > tr > th {
+	text-align: center;
+	width: 20%;
+}
+
+.detail-table > thead > tr > th {
+	text-align: center;
+	width: 50%;
+}
+
+.detail-table {
+	font-size: 15px;
+}
+
+.box-table {
+	display: block;
+	text-align: center;
+	margin: 3px auto;
+	width: 15%;
+	color: #FFFFFF;
+}
+
+.box-table.succ-box {
+	border: 1px solid #5cb85c;
+	border-radius: 2px;
+	background-color: #5cb85c;
+}
+
+.box-table.fail-box {
+	border: 1px solid #d9534f;
+	border-radius: 2px;
+	background-color: #d9534f;
+}
+
+.btn.succ-button {
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #5cb85c;
+}
+
+.btn.fail-button {
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #d9534f;
+}
+
+.test-case-table > tbody > tr > .hiddenRow {
+	padding: 0px !important;
+	border: 0px;
+}
+
+.table-header-build {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.accordian-toggle td:nth-child(5) {
+	padding-top: 1%;
+}
+
+.accordian-toggle td:nth-child(5):before {
+	font-family: 'Glyphicons Halflings';
+	content:"\2212";
+}
+
+.accordian-toggle.collapsed td:nth-child(5) {
+	padding-top: 1%;
+}
+
+.accordian-toggle.collapsed td:nth-child(5):before {
+	font-family: 'Glyphicons Halflings';
+	content: "\2b";
+}
+
+.inner-table {
+	margin: 0px auto;
+}
+
+.inner-table > thead > tr > th {
+	text-align: center;
+	width: 20%;
+}
+
+.step-num {
+	width: 10%;
+}
+
+.step-det {
+	width: 60%;
+}
+
+.modal-id {
+	display: none;
+}
+
+.log-failed {
+	color: #d9534f;
+}
+
+.loading {
+	margin: 50px auto;
+}

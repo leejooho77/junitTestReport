@@ -1,0 +1,12 @@
+.log-table-header > thead > tr > th {
+	text-align: center;
+}
+
+.modal-dialog {
+	overflow-y: initial !important;
+}
+
+.modal-body {
+	max-height: 550px;
+	overflow-y: auto;
+}

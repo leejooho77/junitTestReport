@@ -1,0 +1,106 @@
+.col-md-5th {
+	width: 20%;
+	display: inline-block;
+}
+
+.modules-container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.testsuitename {
+	margin: 30px;
+}
+
+.moduletest {
+	margin: 10px;
+	border: 3px solid #d9534f;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #ccc;
+}
+
+.moduletest-success {
+	margin: 10px;
+	border: 3px solid #5cb85c;
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #ccc;
+}
+
+.test-name {
+	color: #000000;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+.device-info {
+	font-size: 10px;
+	padding-top: 5px;
+}
+
+.device-version {
+	font-size: 10px;
+	padding-bottom: 20px;
+}
+
+.device-image {
+	width: 100px;
+	height: 100px;
+}
+
+.btn-history {
+	margin-top: 15px;
+	background-color: #FFA500;
+	border: 1px #FFA500;
+	color: #FFFFFF;
+	width: 50%;
+}
+
+.build {
+	display: inline-block;
+	float: left;
+	margin-left: 5px;
+	padding-top: 5px;
+}
+
+.box {
+	display: inline-block;
+	text-align: center;
+	margin: 3px;
+	width: 15%;
+	float: right;
+	color: #FFFFFF;
+}
+
+.box.succ-box {
+	border: 1px solid #5cb85c;
+	border-radius: 2px;
+	background-color: #5cb85c;
+}
+
+.box.fail-box {
+	border: 1px solid #d9534f;
+	border-radius: 2px;
+	background-color: #d9534f;
+}
+
+.test-summary {
+	border: none;
+	width: 100%;
+	background-color: #ccc;
+	padding: 0px;
+}
+
+.test-summary + .tooltip > .tooltip-inner {
+      background-color: #73AD21; 
+      color: #FFFFFF; 
+      border: 1px solid green; 
+      padding: 15px;
+      font-size: 20px;
+  }
+
+.loading {
+	margin: 50px auto;
+}
+

@@ -1,0 +1,10 @@
+---
+application:
+  - name: aruba_dashboard
+    instances: 1
+    host: aruba_dashboard
+    memory: 1GB
+    disk_quota: 1024M
+    command: node server.js
+    buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git
+    random-route: false
